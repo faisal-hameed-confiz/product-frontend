@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "categoryId": "1",
+      "productTitle": "headphone",
+      "productName": "",
+      "description": "",
+      "rating": "",
+      "price": 22,
+      "productImg": "https://images.unsplash.com/photo-1587536820401-bdb8e2271766?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHByb2R1Y3RzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60",
+      "reviews": "",
+      "isAvailable": 1
+    },
+    {
+      "productId": 2,
+      "categoryId": "1",
+      "productTitle": "headphone",
+      "productName": "",
+      "description": "",
+      "rating": "",
+      "price": 22,
+      "productImg": "https://images.unsplash.com/photo-1556228841-a3c527ebefe5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60",
+      "reviews": "",
+      "isAvailable": 1
+    },
+    {
+      "productId": 3,
+      "categoryId": "2",
+      "productTitle": "headphone",
+      "productName": "",
+      "description": "",
+      "rating": "",
+      "price": 22,
+      "productImg": "https://images.unsplash.com/photo-1609196007736-2a4bbf3f515f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      "reviews": "",
+      "isAvailable": 1
+    },
+    {
+      "productId": 4,
+      "categoryId": "3",
+      "productTitle": "headphone",
+      "productName": "",
+      "description": "",
+      "rating": "",
+      "price": 22,
+      "productImg": "https://images.unsplash.com/photo-1581946662882-0a9781ca6d15?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=300&q=80",
+      "reviews": "",
+      "isAvailable": 1
+    },
+    {
+      "productId": 5,
+      "categoryId": "4",
+      "productTitle": "headphone",
+      "productName": "",
+      "description": "",
+      "rating": "",
+      "price": 22,
+      "productImg": "https://images.unsplash.com/photo-1587305035448-98d7f792c8cf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      "reviews": "",
+      "isAvailable": 1
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Polo T-Shirts"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Soccer T-Shirts"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Casual T-Shirts"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Shirts"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Shoes"
+    }
+  ]
+}

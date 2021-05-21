@@ -1,0 +1,49 @@
+<form class="row g-3" (submit)="addNewProduct(addProductForm)" #addProductForm="ngForm">
+    <div class="col-md-6">
+      <label for="productName" class="form-label">Product Name</label>
+      <input type="text" class="form-control" id="productName" required name="product_name" ngModel>
+    </div>
+    <div class="col-md-6">
+      <label for="productDescp" class="form-label">Description</label>
+      <textarea type="text" class="form-control" id="productDescp" placeholder="Enter Product Description" name="product_descp" ngModel></textarea>
+    </div>
+    <div class="col-md-6">
+      <label for="rating" class="form-label">Rating</label>
+      <select id="rating" class="form-select" required name="rating" ngModel>
+        <option selected value="">Choose...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="productImage" class="form-label">Image</label>
+      <input type="text" class="form-control" id="productImage" placeholder="Enter Product Image URL" required name="product_image" ngModel>
+    </div>
+    <div class="col-md-6">
+      <label for="productPrice" class="form-label">Price</label>
+      <input type="text" class="form-control" id="productPrice" required name="product_price" ngModel>
+    </div>
+    <div class="col-md-6">
+      <label for="reviews" class="form-label">Reviews</label>
+      <select id="reviews" class="form-select" required name="reviews" ngModel>
+        <option selected value="">Choose...</option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>

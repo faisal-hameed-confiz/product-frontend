@@ -1,0 +1,14 @@
+<div class="card bottom">
+  <img height="400" class="card-img-top" src={{product.image}} alt="">
+  <div class="card-body">
+    <h3 class="card-title">{{product.name}}</h3>
+    <p class="card-text">{{product.description}}</p>
+      <!-- <ngb-rating [max]="5" [(rate)]=product.rating [readonly]="true"></ngb-rating> -->
+      <h4>${{product.price}}</h4>
+      <h4>Rating: {{product.rating}} stars</h4>
+      <h4>Reviews: {{product.reviews}}</h4>
+      <a href="products/update-product/{{product.productId}}">Update Product</a> |
+      <a href="products/delete-product/{{product.productId}}">Delete Product</a>
+  </div>
+</div>
+<!-- /.card -->

@@ -1,0 +1,17 @@
+<div class="row">
+
+  <div class="col-lg-4 col-md-6 mb-4" *ngFor="let product of productList">
+    <div class="card h-100">
+      <a href="products/view-product/{{product.productId}}"><img width="200" height="400" class="card-img-top" src={{product.image}} alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="products/view-product/{{product.productId}}">{{product.name}}</a>
+        </h4>
+        <h5>${{product.price}}</h5>
+        <p class="card-text">{{product.description}}</p>
+        <h4>Rating: {{product.rating}}</h4>
+      </div>
+    </div>
+  </div>
+
+</div>
