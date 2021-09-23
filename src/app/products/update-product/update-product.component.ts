@@ -20,7 +20,7 @@ export class UpdateProductComponent implements OnInit {
       this.productId = data.id;
 
       this.productsService.viewProduct(this.productId).subscribe( data => {
-        this.productDetails = data;
+        this.productDetails = data.data;
       },
       error => {
         console.log(error);

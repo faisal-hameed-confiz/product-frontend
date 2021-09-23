@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
 import { HttpClient } from '@angular/common/Http';
-import { Product } from './product'
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -9,16 +8,16 @@ import { Observable } from 'rxjs';
 })
 export class ProductsService {
 
-  productURL = 'http://localhost:8080/api/products';
+  productURL = 'http://productportal-env.eba-xwictju7.us-east-2.elasticbeanstalk.com/api/products';
 
   constructor(private httpClinet: HttpClient) { }
 
   createProduct(productBody: any): Observable<any> {
-    return this.httpClinet.post(this.productURL, productBody);
+    return this.httpClinet.post(this.productURL + "/create-product", productBody);
   }
 
   getAllProducts(): Observable<any> {
-    return this.httpClinet.get(this.productURL);
+    return this.httpClinet.get(this.productURL + "/get-all");
   }
 
   viewProduct(productId: any): Observable<any> {
